@@ -4,7 +4,7 @@ public class Empleados {
 
 	private String nombre;
 	private double sueldo;
-	private int id;
+	private int id, jm;
 	private String seccion;
 	private static int idsiguiente=1;
 	
