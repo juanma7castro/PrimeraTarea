@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Coche {
 
-	private int ruedas;
+	private int ruedas, prueba, prueba1;
 	private int largo;
 	private int ancho;
 	private int motor;
@@ -12,13 +12,14 @@ public class Coche {
 	private String color;
 	private int peso_total;
 	private boolean asientosCuero, climatizador;
-
+	
 	public Coche(){
 		ruedas=4;
 		largo=2000;
 		ancho=300;
 		motor=1600;
 		peso_plataforma=500;
+		
 	}
 
 	public String dimeDatos() {
